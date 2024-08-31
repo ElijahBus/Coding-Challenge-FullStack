@@ -1,0 +1,38 @@
+#root {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.reports-wrapper {
+  border: solid black;
+  border-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.report-card {
+  flex: 1;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.report-column {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  width: 33%;
+}
+
+.report-column button {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 2rem;
+  width: 10rem;
+}
+
+
